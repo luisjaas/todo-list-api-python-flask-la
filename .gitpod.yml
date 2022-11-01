@@ -9,11 +9,13 @@ vscode:
   extensions:
     - learn-pack.learnpack-vscode
     
+    - rangav.vscode-thunder-client
+
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)
         master: true
-        # enable for pull requests coming from this repo (defaults to true)
+# enable for pull requests coming from this repo (defaults to true)
         pullRequests: false
-        # add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
+# add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
         addComment: false
